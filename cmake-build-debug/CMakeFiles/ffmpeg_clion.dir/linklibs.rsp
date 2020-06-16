@@ -1,0 +1,1 @@
+  -LE:/code/c++_project/ffmpeg_clion/./ffmpeg/lib  -LE:/code/c++_project/ffmpeg_clion/./sdl/lib  -lavcodec -lavdevice -lavfilter -lavformat -lavutil -lpostproc -lswresample -lswscale -lmingw32 -lSDL2 -lSDL2main -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
