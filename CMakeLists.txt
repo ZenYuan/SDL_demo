@@ -2,8 +2,6 @@ cmake_minimum_required(VERSION 3.16)
 project(ffmpeg_clion)
 set(CMAKE_CXX_STANDARD 20)
 
-list(APPEND _ffmpeg_lib avcodec avdevice avfilter avformat avutil postproc swresample swscale)
-
 include_directories(./ffmpeg/include)
 link_directories(./ffmpeg/lib)
 include_directories(./sdl/include)
@@ -19,7 +17,9 @@ link_libraries(swresample)
 link_libraries(swscale)
 
 link_libraries(mingw32)
-link_libraries(SDL2)
-link_libraries(SDL2main)
+#link_libraries(SDL2)
+#link_libraries(SDL2main)
 
-add_executable(ffmpeg_clion main.cpp)
+
+
+add_executable(ffmpeg_clion main.cpp decodec.cpp common.h SDL.cpp codec.cpp)
