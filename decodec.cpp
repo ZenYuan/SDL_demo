@@ -6,6 +6,7 @@
 
 const char *file_path = "E:\\AV\\Mojito.mp4";
 
+//解码出YUV数据
 int decodec_test()
 {
     AVFormatContext *pFormatContext = nullptr;

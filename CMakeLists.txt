@@ -22,4 +22,4 @@ link_libraries(mingw32)
 
 
 
-add_executable(ffmpeg_clion main.cpp decodec.cpp common.h SDL.cpp codec.cpp)
+add_executable(ffmpeg_clion main.cpp decodec.cpp common.h SDL.cpp codec.cpp tanscodec.cpp)

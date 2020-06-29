@@ -68,8 +68,8 @@
 //    return 0;
 //}
 
-
-int transcode_test()
+//该YUV数据是格式转化完成的，不能够进行转码
+int code_test()
 {
     AVFormatContext * pFormatCtx = nullptr;
     AVOutputFormat * fmt = nullptr;
