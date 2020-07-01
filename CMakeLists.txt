@@ -20,6 +20,6 @@ link_libraries(mingw32)
 #link_libraries(SDL2)
 #link_libraries(SDL2main)
 
+list(APPEND _sources decodec.cpp common.h SDL.cpp codec.cpp tanscodec.cpp raw/yuv.cpp)
 
-
-add_executable(ffmpeg_clion main.cpp decodec.cpp common.h SDL.cpp codec.cpp tanscodec.cpp)
+add_executable(ffmpeg_clion main.cpp ${_sources})
